@@ -1,0 +1,95 @@
+/* src/App.css */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, tech-inspired font */
+  text-align: center;
+  background-color: #121212; /* Dark background for a modern, minimal look */
+  color: #e0e0e0; /* Light text color for contrast */
+}
+
+.header {
+  padding: 2rem;
+  background-color: #1e1e1e; /* Darker background for the header */
+  color: #4fc3f7; /* Light blue color for a techy, sleek look */
+  border-bottom: 2px solid #4fc3f7; /* Subtle border with the same blue for cohesion */
+}
+
+.apply-button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4fc3f7; /* Light blue for buttons */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+  background-color: #0288d1; /* Darker blue on hover */
+}
+
+.intro, .highlights {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #1f1f1f; /* Slightly lighter dark background for sections */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for a modern feel */
+}
+
+.form-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay for the popup */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: #222222; /* Dark background for the form */
+  padding: 2rem;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5); /* Stronger shadow for focus */
+}
+
+form label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-size: 1rem;
+  color: #b0bec5; /* Light gray for labels */
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #333333; /* Darker inputs for a cohesive look */
+  border: 1px solid #4fc3f7; /* Blue borders for inputs */
+  color: white;
+  border-radius: 4px;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #0288d1; /* Blue border on focus */
+  outline: none;
+}
+
+form button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #4fc3f7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0288d1; /* Darker blue on hover */
+}
